@@ -46,3 +46,5 @@ inside the folder C:\Program Files\Image-Line\FL Studio 21\Artwork\Wallpapers
 
 you backup or rename the original 'Browser.html' file and replace it with the supplied 'Browser.html' file.
 
+
+also note that I am using anaconda3 and a virtual environment named 'env'
