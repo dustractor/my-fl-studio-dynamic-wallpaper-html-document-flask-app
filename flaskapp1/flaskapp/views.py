@@ -49,31 +49,42 @@ T = Template("""<!doctype html>
 #{{{1 stylesheet
 style = """
             body {
-                background-color:#222;
+                background-color:#333333;
                 font-family:sans-serif;
-                font-size:24pt;
-                margin:1rem;;
+                font-size:16pt;
+                padding:auto;
             }
             .container {
+                vertical-align:center;
                 padding:4rem;
-                width:auto;
-                height:auto;
+                width:90%;
+                height:90%;
                 margin:auto;
-                //width:100%;
-                //height:100%;
+                margin-top:8rem;
                 display:flex;
                 flex-direction:row;
                 flex-wrap:wrap;
                 justify-content:space-evenly;
                 align-content:stretch;
-                background-color:#444;
+                align-items:center;
+                background-color:#303030;
                 gap:1rem;
+                border-radius:1rem;
             }
             .primetype {
                 border-radius:1rem;
                 background-color:#333;
-                padding:2rem;
+                padding:1rem;
                 margin:auto;
+                color:#404040;
+            }
+            .primetype > h3 {
+                position:relative;
+                top:-3rem;
+                left:-2rem;
+            }
+            .primetype > p {
+                font-size:36pt;
             }
 
 
