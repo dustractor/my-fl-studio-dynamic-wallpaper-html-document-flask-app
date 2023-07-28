@@ -1,10 +1,10 @@
-#my-fl-studio-dynamic-wallpaper-html-document-flask-app
+# my-fl-studio-dynamic-wallpaper-html-document-flask-app
 
 ![screenshot](https://github.com/dustractor/my-fl-studio-dynamic-wallpaper-html-document-flask-app/blob/main/Screenshot.png?raw=true)
-###Description
+### Description
 A flask app that generates a page full of randomly chosen prime numbers from various categories
 
-#####Those categories:
+##### Those categories:
 
 * balanced_primes
 * chen_primes
@@ -45,15 +45,15 @@ A flask app that generates a page full of randomly chosen prime numbers from var
 * two_sided_primes
 * unique_primes 
 
-####Purpose:
+#### Purpose:
 
 I use it for my fl studio background dynamic wallpaper html document
 
-####Usage:
+#### Usage:
 
 To do that you go inside the folder C:\Program Files\Image-Line\FL Studio 21\Artwork\Wallpapers and backup or rename the original 'Browser.html' file and replace it with the supplied 'Browser.html' file.
 
-#####Configuration:
+##### Configuration:
 
 Please note that I am using anaconda3 and a virtual environment named 'env'.  You will have to make adjustments based on your particular python installation.  (Anaconda recommended but not strictly necessary.)
     
