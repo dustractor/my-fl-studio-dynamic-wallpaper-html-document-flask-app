@@ -62,7 +62,7 @@ Please note that I am using anaconda3 and a virtual environment named 'env'.  Yo
     ------------ -------
     click        8.0.4
     colorama     0.4.6
-    Flask        2.2.2
+    Flask        2.2.2 <--- this is LITERALLY the only requirement
     itsdangerous 2.0.1
     Jinja2       3.1.2
     MarkupSafe   2.1.1
