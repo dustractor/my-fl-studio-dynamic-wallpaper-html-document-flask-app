@@ -835,6 +835,19 @@ def indexroute(methods=["GET"]):
     div += p
     root += div
 
+    # prime_quadruplets
+    div = elem("div")
+    div.attrt(("class","primetype"))
+    h = elem("h3")
+    h.txt("quadruplet")
+    div += h
+    for n in pick_prime_quads():
+        p = elem("p")
+        p.txt(repr(n))
+        div += p
+    root += div
+
+
     # ramanujan_primes
     div = elem("div")
     div.attrt(("class","primetype"))
